@@ -334,12 +334,16 @@ var easing = {
     * @param {number} k
     * @return {number}
     */
-    bounceInOut: function (k) {
-        if (k < 0.5) {
-            return easing.bounceIn(k * 2) * 0.5;
-        }
-        return easing.bounceOut(k * 2 - 1) * 0.5 + 0.5;
+//     bounceInOut: function (k) {
+//         if (k < 0.5) {
+//             return easing.bounceIn(k * 2) * 0.5;
+//         }
+//         return easing.bounceOut(k * 2 - 1) * 0.5 + 0.5;
+//     }
+     bounceInOut: function (k) {
+       return 1;
     }
+    
 };
 
 export default easing;
